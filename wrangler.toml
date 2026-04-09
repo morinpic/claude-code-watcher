@@ -1,0 +1,10 @@
+name = "claude-code-watcher"
+main = "src/index.ts"
+compatibility_date = "2025-04-01"
+
+[triggers]
+crons = ["* * * * *"]  # 毎分
+
+[[kv_namespaces]]
+binding = "KV"
+id = "4ba5213dd8a14bf3b2dcf3d86e6da746"
